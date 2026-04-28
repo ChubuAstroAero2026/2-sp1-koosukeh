@@ -2,8 +2,11 @@
 
 int main()
 {
-  //ここにコードを書く
+	float a;
+	int b;
 
-  
-  return 0;
+	scanf("%f", &a);
+	scanf("%d", &b);
+	printf("%.*f", b, a);
+	return 0;
 }
